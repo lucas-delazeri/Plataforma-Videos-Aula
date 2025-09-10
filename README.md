@@ -14,7 +14,7 @@ Este projeto consiste em um site voltado para fins didáticos, desenvolvido majo
 
 2. **IDE / Editor de Código**  
    Utilize a IDE ou editor de sua preferência para editar o código.  
-   > **Nota:** Este projeto foi desenvolvido no **Visual Studio Code**, utilizando a extensão **Live Server** para facilitar a execução.
+   > **OBS:** Este projeto foi desenvolvido no **Visual Studio Code**, utilizando a extensão **Live Server** para facilitar a execução.
 
 ---
 
