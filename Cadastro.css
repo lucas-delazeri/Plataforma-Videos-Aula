@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0f0f0;
+}
+
+.box {
+    background: #fff;
+    padding: 30px;
+    width: 350px;
+    border-radius: 12px;
+    box-shadow: 0px 12px 18px rgba(0,0,0,0.2);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    animation: fadeIn 1.5s ease;
+}
+
+.box h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.box form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #555;
+    text-align: left;
+}
+
+.box form input, 
+.box form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1.5px solid #ccc;        
+    background-color: #f9f9f9;       
+    font-size: 14px;
+    transition: all 0.3s ease;
+    outline: none;                   
+}
+
+.box form button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background: #4caf50;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.box form button:hover {
+    background: rgb(18, 126, 14);
+    transform: scale(1.05);
+}
+
+.sexo {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 10px 0 15px;
+}
+
+.sexo label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: normal;
+    color: #333;
+}
+
+.resultado {
+    background: #fff;
+    padding: 30px;
+    width: 350px;
+    border-radius: 12px;
+    box-shadow: 0px 12px 18px rgba(0,0,0,0.2);
+    text-align: center;
+    animation: fadeIn 1.5s ease;
+    flex-direction: column;
+    display: flex;
+    margin-top: 15px;
+}
+
+.resultado h3 {
+    color: #4caf50;
+    margin-bottom: 15px;
+}
+
+.voltar {
+    display: inline-block;
+    margin-top: 15px;
+    width: 100%;
+    padding: 12px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 6px;
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.voltar:hover {
+    background-color: rgb(18, 126, 14);
+    transform: scale(1.05);
+}
+
+@keyframes fadeIn {
+    from { 
+        opacity: 0; transform: translateY(-20px); 
+    }
+    to { 
+        opacity: 1; transform: translateY(0); 
+    }
+}
