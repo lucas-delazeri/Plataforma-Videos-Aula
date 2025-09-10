@@ -33,5 +33,12 @@ Este projeto consiste em um site voltado para fins didáticos, desenvolvido majo
 3. **Execute o código**
    - Após a realização dos passos anteriores, basta utilizar a opção "Open PHP/HTML/JS in browser" assim executando o código em seu navegador de preferência.
 
+---
+
+## Adicional
+
+   - Dentro da base de dados existem duas "Views" que filtram os usuários por sexo, sendo elas "usuariosf" para o sexo feminino e "usuariosm" para o sexo masculino.
+   - Neste banco de dados existe uma "Procedure" com a funcionalidade de atualizar um cadastro, este procedimento é nomeado como "AtualizaCadastro". 
+
 
  
